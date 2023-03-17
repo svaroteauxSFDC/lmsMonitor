@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default JWT</label>
+    <protected>false</protected>
+    <values>
+        <field>Audience__c</field>
+        <value xsi:type="xsd:string">https://test.salesforce.com</value>
+    </values>
+    <values>
+        <field>Certificate__c</field>
+        <value xsi:type="xsd:string">LMS_Loopback_Cert</value>
+    </values>
+    <values>
+        <field>ConnectionType__c</field>
+        <value xsi:type="xsd:string">DirectAccessJWT</value>
+    </values>
+    <values>
+        <field>EndPointUrl__c</field>
+        <value xsi:type="xsd:string">https://inspiration-platform-7359-dev-ed.scratch.my.salesforce.com/services/data/v57.0/tooling/query</value>
+    </values>
+    <values>
+        <field>Issuer__c</field>
+        <value xsi:type="xsd:string">3MVG9SM6_sNwRXqt8iAxcIVzBrFf7M9aFBLf5Vr7f_3.pnmbLxw0hw5zH8MnlzQtkBlx68PJuPHmVrIfpsKBW</value>
+    </values>
+    <values>
+        <field>NamedCredential__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Subject_Claim__c</field>
+        <value xsi:type="xsd:string">test-xoty0ajwwcil@example.com</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>LMS Monitor</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__UtilityBar</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage,lightning__RecordPage,lightning__UtilityBar">
+            <property
+                name="lmsMonitorsettingName"
+                label="Loopback Configuration"
+                type="String"
+                datasource="apex://MessageChannel_AppBuilderSettings_CTL"
+                description="DeveloperName of the LMS Monitor Setting record to be used (see LMS_Monitor_Setting__mdt)" />
+
+            <property
+                name="lmsMonitorDebugMode"
+                label="Active debug mode"
+                type="Boolean"
+                description="Display a third tab which gather all debug traces" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

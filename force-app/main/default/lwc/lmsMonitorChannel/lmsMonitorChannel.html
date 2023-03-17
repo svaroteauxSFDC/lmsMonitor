@@ -1,0 +1,21 @@
+<template>
+    <div>
+        <lightning-button-icon-stateful
+            icon-name="utility:link"
+            size="small"
+            selected={subscribeChannelState}
+            onclick={handleSubscribeChannel}
+            alternative-text="Like"
+            class="slds-m-left_xxx-small"
+            data-button-number="02"
+            disabled={disableSubscribe}></lightning-button-icon-stateful>
+        <lightning-button-icon
+            icon-name="utility:events"
+            size="small"
+            onclick={handlePublishChannel}
+            alternative-text="Like"
+            class="slds-m-left_xxx-small slds-m-right_x-small"
+            disabled={disablePublish}></lightning-button-icon>
+        {channelLabel}
+    </div>
+</template>

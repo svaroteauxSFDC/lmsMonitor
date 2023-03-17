@@ -1,0 +1,12 @@
+//<imports>
+let channels = new Map();
+//<channels>
+const getChannel = (channelName) => {
+    return channels.get(channelName);
+};
+
+const hasChannel = (channelName) => {
+    return channels.has(channelName);
+};
+
+export {getChannel, hasChannel};

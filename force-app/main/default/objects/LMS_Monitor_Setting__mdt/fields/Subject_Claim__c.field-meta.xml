@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_Claim__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>JWT Subject</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>JWT Subject, Username to use to connect to the Connected App</inlineHelpText>
+    <label>Subject Claim</label>
+    <length>255</length>
+    <required>false</required>
+    <securityClassification>Restricted</securityClassification>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,28 @@
+<template>
+    <lightning-tabset variant="scoped">
+        <lightning-tab label="Settings">
+            <template lwc:if={isInitialized}>
+                Channels ({channelList.totalSize})
+                <template for:each={channelList.channels} for:item="channel">
+                    <c-lms-monitor-channel key={channel.developerName} channel-record={channel} disable-subscribe={channel.disableSubscribable} onsubscription={handleSubscription} onpublish={handlePublish} ondebug={handleDebug}></c-lms-monitor-channel>
+                </template>
+            </template>
+            <template lwc:else>
+                <template lwc:if={showSpinner}><lightning-spinner alternative-text="Loading"></lightning-spinner></template>
+                Initialization in progress...<br />{initializationError}
+            </template>
+        </lightning-tab>
+        <lightning-tab label="Messages">
+            <template for:each={MessageList} for:item="lms">
+                <c-lms-monitor-message key={lms.key} message-key={lms.key} message-record={lms.message} message-channel={lms.channel} ondelete={handleDeleteMessage} ondebug={handleDebug}></c-lms-monitor-message>
+            </template>
+        </lightning-tab>
+        <template lwc:if={lmsMonitorDebugMode}>
+            <lightning-tab label="Debug">
+                <lightning-button label="Flush logs" title="Erase all logs" icon-name="utility:recycle_bin_empty" onclick={handleFlushLog}></lightning-button>
+                <hr/>
+                <lightning-formatted-text value={debugTrace} linkify ></lightning-formatted-text>
+            </lightning-tab>
+        </template>
+    </lightning-tabset>
+</template>

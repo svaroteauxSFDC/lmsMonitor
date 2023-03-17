@@ -1,0 +1,10 @@
+<template>
+    <div class="slds-m-bottom_x-small">
+        <lightning-card variant="Narrow" title={messageChannel} icon-name="standard:events">
+            <lightning-button-icon icon-name="utility:delete" alternative-text="Delete" size="x-small" title="Delete" slot="actions" onclick={handleDelete}></lightning-button-icon>
+            <div class="slds-p-horizontal_small">
+                <lightning-tree items={messageItems}></lightning-tree>
+            </div>
+        </lightning-card>
+    </div>
+</template>

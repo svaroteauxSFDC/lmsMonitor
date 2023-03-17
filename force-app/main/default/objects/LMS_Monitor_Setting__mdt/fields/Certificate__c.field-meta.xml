@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certificate__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Certificate to use to sign the JWT</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Certificate to use to sign the JWT</inlineHelpText>
+    <label>Certificate</label>
+    <length>255</length>
+    <required>false</required>
+    <securityClassification>Restricted</securityClassification>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

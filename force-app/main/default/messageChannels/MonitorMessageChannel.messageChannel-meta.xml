@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message Channel use by default by the Monitor tools.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Used to segregate different type of the same MessageChannel</description>
+        <fieldName>channel</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Type of action to be executed</description>
+        <fieldName>action</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Context data structure</description>
+        <fieldName>context</fieldName>
+    </lightningMessageFields>
+    <masterLabel>Monitor Message Channel</masterLabel>
+</LightningMessageChannel>
