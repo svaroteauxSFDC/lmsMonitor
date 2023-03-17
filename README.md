@@ -63,9 +63,8 @@ ex:
 - Assign the *MessageChannel Permissions* Permission Set
 
 ## Update LMS Custom Setting
-- if you want a namedCredential connection type
-    - Update "Default Named Credential"
-        > Named credential: write down the named credential you xant to use
+- if you want a namedCredential connection type, update the "Default Named Credential"
+    - `Named credential`: write down the named credential you want to use
 
 - if you want to use a JWT connection type
     - Update "Default JWT" settings, ie:
