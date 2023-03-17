@@ -1,12 +1,12 @@
 # Using the LmsMonitor component
-1. [Pre requisite](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#pre-requisite)
-    - [Connected App](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#connected-app)
-    - [Auth. Provider](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#auth-provider)
-    - [Named Credential](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#named-credential)
-    - [Remote Site Setting](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#remote-site-setting)
-2. [Set user permissions](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#set-user-permissions)
-3. [Update LMS Custom Setting](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#update-lms-custom-setting)
-4. [Update with the message channels available in your org](https://github.com/svaroteauxSFDC/lmsMonitor/edit/main/README.md#update-with-the-message-channels-available-in-your-org)
+1. [Pre requisite](https://github.com/svaroteauxSFDC/lmsMonitor#pre-requisite)
+    - [Connected App](https://github.com/svaroteauxSFDC/lmsMonitor#connected-app)
+    - [Auth. Provider](https://github.com/svaroteauxSFDC/lmsMonitor#auth-provider)
+    - [Named Credential](https://github.com/svaroteauxSFDC/lmsMonitor#named-credential)
+    - [Remote Site Setting](https://github.com/svaroteauxSFDC/lmsMonitor#remote-site-setting)
+2. [Set user permissions](https://github.com/svaroteauxSFDC/lmsMonitor#set-user-permissions)
+3. [Update LMS Custom Setting](https://github.com/svaroteauxSFDC/lmsMonitor#update-lms-custom-setting)
+4. [Update with the message channels available in your org](https://github.com/svaroteauxSFDC/lmsMonitor#update-with-the-message-channels-available-in-your-org)
     
 ---
 
