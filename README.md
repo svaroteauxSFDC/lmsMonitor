@@ -81,7 +81,7 @@ For the moment, import injection is impossible in LWC. So, you have to provide y
 To do make it more simply, I provide a shell script which use Salesforce CLI (SFDX) commands
 > deployer/deployMessageChannelMonitor.sh
 
-So, before executing it, please register your orgs a command such as:
+So, before executing it, please register your orgs with a command such as:
 > sfdx auth web login 
 
 When executed, the `deployMessageChannelMonitor.sh` will ask you to provide the sfdx alias of the targeted org.
